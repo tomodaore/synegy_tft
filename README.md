@@ -1,1 +1,1 @@
-# synagy_tft
+tft_synagyというフォルダ内部に紹介PDFがある
