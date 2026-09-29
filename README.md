@@ -104,9 +104,10 @@ chmod 755 /usr/lib/cgi-bin/main.cgi
 
 TFTのチャンピオン名、コスト、シナジー等のゲームデータは公開されている情報を参考に整理して使用しています。
 
-- データ参照元：**[要記入：実際に参照したサイト名・URL]**
+- データ参照元：Riot Games公式「サイバーシティの概要」
+  - https://teamfighttactics.leagueoflegends.com/ja-jp/news/game-updates/cyber-city-overview/
 - ライブラリ：外部ライブラリは使用していません
-- 参考にしたプログラム：**[要記入：参考にしたコードがあれば名称・URL。なければ「特になし」]**
+- 参考にしたプログラム：特になし
 
 ゲームそのもののデータ・名称等の権利は各権利者に帰属します。
 
