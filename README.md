@@ -55,23 +55,25 @@ TFTでは、あるシナジーを軸に構成を考える際に、
 
 ## 動作デモ
 
-`tft_synergy_demo.mp4`
+`demo.mp4`
 
 シナジーとコスト上限を選択し、条件に合うチャンピオンと成立するシナジーが表示されるまでの簡単な動作デモです。
 
 ## ソースコード・作品構成
 
 ```text
-tft_synagy/
-├─ bin/
-│  └─ main.cgi
-├─ source/
-│  ├─ main.c
-│  ├─ func.h
-│  ├─ tft_synergy.html
-│  └─ synergy_data/
-├─ summary.pdf
-└─ tft_synergy_demo.mp4
+synegy_tft/
+├─ README.md
+├─ demo.mp4
+└─ tft_synagy/
+   ├─ bin/
+   │  └─ main.cgi
+   ├─ source/
+   │  ├─ main.c
+   │  ├─ func.h
+   │  ├─ tft_synergy.html
+   │  └─ synergy_data/
+   └─ summary.pdf
 ```
 
 - `main.c`：フォーム入力の受信、データ読み込み、対象チャンピオンの抽出、結果表示
@@ -79,7 +81,7 @@ tft_synagy/
 - `tft_synergy.html`：入力フォーム
 - `synergy_data/`：チャンピオン、コスト、シナジー判定に使用するデータ
 - `summary.pdf`：作品の概要資料
-- `tft_synergy_demo.mp4`：シナジーとコスト上限を指定して結果が表示されるまでの動作デモ
+- `demo.mp4`：シナジーとコスト上限を指定して結果が表示されるまでの動作デモ
 
 ## 実行環境・実行方法
 
